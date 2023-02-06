@@ -8,7 +8,7 @@ layout = [
     [sg.Output(size=(50,10),key="-OUTPUT-")]
 ]
 
-window = sg.Window('CNNの出力画像サイズを算出',layout,size=(600,300))
+window = sg.Window('スロットマシン',layout,size=(600,300))
 
 rotation_count = rd.randint(10,20)
 while True:
